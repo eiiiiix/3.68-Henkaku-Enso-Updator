@@ -1,6 +1,6 @@
-# 3.60 HENkaku Ensō Updater
+# 3.65 HENkaku Ensō Updater
 
-## This does not allow you to hack your console that is on a firmware past 3.65. You need to be on firmare 3.60 in order to use this software.
+## This does not allow you to hack your console that is on a firmware past 3.68. You need to be on firmare 3.65 in order to use this software.
 
 Custom Firmware 3.68 HENkaku Ensō is a port of [henkaku](https://github.com/henkaku) to the latest possible firmware that does still have the bootloader vulnerability.
 
