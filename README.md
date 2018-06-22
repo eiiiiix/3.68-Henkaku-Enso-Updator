@@ -1,4 +1,4 @@
-# 3.65 HENkaku Ensō Updater
+# 3.68 HENkaku Ensō Updater
 
 ## This does not allow you to hack your console that is on a firmware past 3.68. You need to be on firmare 3.65 in order to use this software.
 
